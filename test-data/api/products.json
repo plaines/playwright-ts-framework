@@ -1,0 +1,28 @@
+{
+  "existingProducts": [
+    { "id": 1, "category": "men's clothing" },
+    { "id": 5, "category": "jewelery" },
+    { "id": 9, "category": "electronics" }
+  ],
+  "newProducts": [
+    {
+      "title": "QA Mechanical Keyboard",
+      "price": 89.99,
+      "description": "Keyboard created by an automated test",
+      "category": "electronics",
+      "image": "https://i.pravatar.cc/150"
+    },
+    {
+      "title": "QA Silver Ring",
+      "price": 15.5,
+      "description": "Ring created by an automated test",
+      "category": "jewelery",
+      "image": "https://i.pravatar.cc/150"
+    }
+  ],
+  "invalidLogin": {
+    "request": { "username": "no.such.user", "password": "wrong-pass" },
+    "expectedStatus": 401,
+    "expectedBody": "username or password is incorrect"
+  }
+}

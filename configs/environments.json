@@ -1,0 +1,10 @@
+{
+  "demo": {
+    "baseUrl": "https://opensource-demo.orangehrmlive.com",
+    "apiBaseUrl": "https://fakestoreapi.com"
+  },
+  "local": {
+    "baseUrl": "http://localhost:8080",
+    "apiBaseUrl": "http://localhost:3000"
+  }
+}

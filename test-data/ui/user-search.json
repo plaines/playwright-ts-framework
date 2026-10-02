@@ -1,0 +1,4 @@
+[
+  { "role": "Admin", "status": "Enabled" },
+  { "role": "ESS", "status": "Enabled" }
+]
